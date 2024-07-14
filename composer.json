@@ -1,0 +1,17 @@
+{
+    "name": "latnikov/microframe-slim",
+    "require-dev": {
+        "slim/slim": "^4.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Latnikov\\MicroframeSlim\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxim Latnikov"
+        }
+    ],
+    "require": {}
+}
