@@ -1,15 +1,16 @@
 {
     "name": "latnikov/microframe-slim",
+    "type": "project",
     "require": {
-        "slim/slim": "*",
-        "slim/http": "*",
         "slim/psr7": "^1.7",
+        "laminas/laminas-diactoros": "^3.3",
         "httpsoft/http-message": "^1.1",
         "httpsoft/http-server-request": "^1.1",
         "nyholm/psr7": "^1.8",
         "nyholm/psr7-server": "^1.1",
-        "guzzlehttp/psr7": "^2.6",
-        "laminas/laminas-diactoros": "^3.3"
+        "slim/slim": "4.*",
+        "guzzlehttp/guzzle": "^7.0",
+        "guzzlehttp/psr7": "^2"
     },
     "autoload": {
         "psr-4": {
@@ -18,7 +19,8 @@
     },
     "authors": [
         {
-            "name": "Maxim Latnikov"
+            "name": "Maxim Latnikov",
+            "email": "latnikou@gmail.com"
         }
     ]
 }
